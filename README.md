@@ -1,7 +1,9 @@
 # Responsive Product_Detail-Page (Vite+React, ContextAPI)
+
 This is Product_Detail-page using `Context API` in which the data has been fetch by `json-server` using `axios` method and in which we can view different images and also by product using `useState` and also support for price, discount, colors. also having full responsive for small devices and medium devices using `mediaQuery`.
 
 ## 🚀 Features
+
 - Data is Fetch dynamically using Axios and json-server.
 - Dynamically Color, Price, Discount, images rendering.
 - Full responsive for small devices.
@@ -9,6 +11,7 @@ This is Product_Detail-page using `Context API` in which the data has been fetch
 - Modular CSS Styles.
 
 ## 🛠️ Technology Stack
+
 - React (Vite + React).
 - ContextAPI.
 - Axios (Fetching Data).
@@ -16,17 +19,22 @@ This is Product_Detail-page using `Context API` in which the data has been fetch
 - CSS (Responsive Layout).
 
 ## 📦 Installation
+
 ```
 git clone https://github.com/prateek205/productDetail_page.git
 cd productDetail_page
 npm install
 npm start
 ```
+
 ## 🔌JSON-server Mock API
+
 ```
 json-server --watch db.json -p 3002
 ```
+
 #### Ex. db.json
+
 ```
 {
   "appliances":[
@@ -45,7 +53,7 @@ json-server --watch db.json -p 3002
             "/images/productImages/samsung/washing-machine_black-3.jpg",
             "/images/productImages/samsung/washing-machine_black-4.jpg",
             "/images/productImages/samsung/washing-machine_black-5.jpg"
-            ],
+          ],
           "price": 49990,
           "discount": 40,
           "dimensions": "45D x 60W x 85H Centimeters",
@@ -64,33 +72,38 @@ json-server --watch db.json -p 3002
           "/images/productImages/samsung/washing-machine_grey-3.jpg",
           "/images/productImages/samsung/washing-machine_grey-4.jpg",
           "/images/productImages/samsung/washing-machine_grey-5.jpg"
-          ],
+        ],
         "price": 30990,
         "discount": 0,
         "capacity": 7,
         "color": "inox",
-        "brand": "Samsung",    
+        "brand": "Samsung",
         "dimensions": "55D x 60W x 85H Centimenters",
         "special feature": "Child Lock, Digital Inverter Technology, Hygiene Steam, Quick Wash, Diamond Drum",
         "cycle option": "Daily Wash, Delicates, Tub Clean, Wool, Hygiene",
         "voltage": 220
-      }  
+      }
     ]
   ]
 }
 ```
+
 ## 📲 Responsive UI
+
 - Image switch on color select
 - Final price after discount
 - Buttons: Add to Cart & Buy Now
 
 ## 📸 Preview
+
 ![Demo_Screenshot](https://github.com/prateek205/ProductDetail-Page/blob/ecf72d243975c9502d9d16b0c0440b1cc42a1379/public/images/Screenshot/productDetail-Page.png)
 
 ## 📽️ Live Demo
+
 Here you can see the Live Demo: https://product-detail-page-git-main-prateek205s-projects.vercel.app/
 
 ## 📂 Folder Structure
+
 ```
 ├── ProductDetail_page
 ├── public/
