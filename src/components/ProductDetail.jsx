@@ -110,14 +110,12 @@ const ProductDetail = () => {
               <p>Brand</p>
               <p>Capacity</p>
               <p>Special Features</p>
-              <p>Finish Type</p>
             </div>
             <div className="featureDetail">
               <p>{selectColor?.dimensions}</p>
               <p> {selectColor?.brand}</p>
               <p> {selectColor?.capacity} Watts</p>
               <p> {selectColor?.["special feature"]}</p>
-              <p> {selectColor?.["finish type"]}</p>
             </div>
           </div>
         </div>
