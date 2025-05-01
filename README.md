@@ -85,7 +85,7 @@ json-server --watch db.json -p 3002
 - Buttons: Add to Cart & Buy Now
 
 ## 📸 Preview
-![Demo_Screenshot](https://github.com/prateek205/productDetail_page/blob/5a7d191f6eef81a00d8f246b52de67594f8b1d6b/public/images/Screenshot/productDetail_page.png)
+![Demo_Screenshot](https://github.com/prateek205/ProductDetail-Page/blob/2c8e21982bac0c1fdd43222b11273849e589711b/public/images/Screenshot/productDetail_page.png)
 
 ## 📂 Folder Structure
 ```
