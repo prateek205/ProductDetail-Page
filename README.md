@@ -85,7 +85,7 @@ json-server --watch db.json -p 3002
 - Buttons: Add to Cart & Buy Now
 
 ## 📸 Preview
-![Demo_Screenshot](https://github.com/prateek205/ProductDetail-Page/blob/2c8e21982bac0c1fdd43222b11273849e589711b/public/images/Screenshot/productDetail_page.png)
+![Demo_Screenshot](https://github.com/prateek205/ProductDetail-Page/blob/ecf72d243975c9502d9d16b0c0440b1cc42a1379/public/images/Screenshot/productDetail-Page.png)
 
 ## 📽️ Live Demo
 Here you can see the Live Demo: https://product-detail-page-git-main-prateek205s-projects.vercel.app/
