@@ -58,7 +58,7 @@ const ProductDetail = () => {
       </div>
       <div className="detailContainer">
         <div className="title-section">
-          <p className="title">{`${selectColor?.title}`}</p>
+          <p className="title">{`${selectColor?.product}`}</p>
         </div>
 
         <div className="price-section">
